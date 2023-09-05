@@ -112,43 +112,18 @@ header h4 {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
  }
 
-.menu-trailer, .menu-characters, .menu-visuals {
-  color: var(--main-red);
-}
-
-.menu-trailer:hover {
+.menu:hover {
   color: var(--main-color);
   background: var(--main-red);
   scale: 1.2;
 }
 
-.menu-movie, .menu-art {
+.menu {
   color: var(--main-blue);
 }
-
-.menu-movie:hover {
-  color: var(--main-color);
-  background: var(--main-blue);
-  scale: 1.2;
-}
-
-.menu-characters:hover {
-  background: var(--main-red);
-  color: var(--main-color);
-  scale: 1.2;
-}
  
-.menu-art:hover {
-  color: var(--main-color);
-  background: var(--main-blue);
-  scale: 1.2;
-}
 
-.menu-visuals:hover {
-  color: var(--main-color);
-  background: var(--main-red);
-  scale: 1.2;
-}
+
 
 .title {
   border-radius: 5px;
