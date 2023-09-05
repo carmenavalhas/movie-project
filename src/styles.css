@@ -1,0 +1,664 @@
+ :root {
+   --main-color: #E5B94B;
+   --main-red: #9C2004;
+   --main-blue: #3564A3;
+   --rgba-main: rgba(229, 185, 75, 0.5);
+   --main-font-family: "Cormorant", serif;
+   --artsy-font-family: 'Sedgwick Ave Display', cursive;
+   --secondary-font-family: "Jost", sans-serif;
+   --default-font-family: 'Work Sans', sans-serif;
+    --gradient: linear-gradient(242deg, rgb(229, 185, 75) 32%, rgb(53, 100, 163) 100%) !important;
+ }
+
+
+ .container {
+  max-width: 1200px;
+  margin: 0 auto;
+ }
+
+
+ .theme-button {
+   display: block;
+   text-transform: uppercase;
+   color: black;
+   background: var(--main-color);
+   background-color: rgba(51, 51, 51, 0.05);
+   border-radius: 20px;
+   border-width: 0;
+   cursor: pointer;
+   font-family: var(--default-font-family);
+   font-size: 10px;
+   letter-spacing: 2px;
+   line-height: 20px;
+   margin: 40px auto 40px auto;
+   padding: 10px 12px;
+   text-align: center;
+   transition: all 150ms ease-in-out;
+ }
+
+.theme-button:hover {
+   cursor: pointer;
+   text-decoration: none;
+   border-radius: 50px;
+   color: white;
+   background: black;
+ }
+
+header {
+  background-image: linear-gradient(rgba(19,
+        172,
+        200, 0.7), rgba(19,
+        172,
+        200, 0.9)), url(../images/bg-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+  margin: 0 auto;
+}
+
+ .hero {
+  background-image: url("/images/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+ }
+
+ .navbar-toggler {
+  margin: 20px auto 0 auto;
+   background: var(--main-blue);
+   text-align: center;
+   padding: 5px;
+ }
+
+
+ .navbar-toggler:hover {
+  border: none;
+  scale: 1.1;
+  
+ }
+
+ /* ----------------- Nav bar ------------------------- */
+
+ .navbar-nav {
+  font-family: var(--secondary-font-family);
+   background: var(--main-color);
+   width: 100%;
+   gap: 50px;
+   text-transform: uppercase;
+   font-size: 12px;
+   letter-spacing: 2px;
+   padding: 10px 100px;
+   margin: 25px auto 40px auto;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+ }
+
+.menu-trailer {
+  color: var(--main-red);
+}
+
+.menu-trailer:hover {
+  color: var(--main-color);
+  background: var(--main-red);
+  scale: 1.2;
+}
+
+.menu-movie {
+  color: var(--main-blue);
+}
+
+.menu-movie:hover {
+  color: var(--main-color);
+  background: var(--main-blue);
+  scale: 1.2;
+}
+
+.menu-characters {
+  color: #9C2004;
+}
+
+.menu-characters:hover {
+  background: var(--main-red);
+  color: var(--main-color);
+  scale: 1.2;
+}
+
+.menu-art {
+  color: var(--main-blue);
+}
+
+.menu-art:hover {
+  color: var(--main-color);
+  background: var(--main-blue);
+  scale: 1.2;
+}
+
+.menu-visuals {
+  color: var(--main-red);
+}
+
+.menu-visuals:hover {
+  color: var(--main-color);
+  background: var(--main-red);
+  scale: 1.2;
+}
+
+.title {
+  border-radius: 5px;
+  margin-bottom: 300px;
+  width: auto;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+
+ .hero h1 {
+  color: var(--main-blue);
+  font-family: var(--main-font-family);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);  
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 70px;
+  letter-spacing: 6px;
+ }
+
+ .hero h4 {
+  color: var(--main-blue);
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 10px;
+ }
+
+.enter-button {
+  background: var(--main-blue);
+  font-family: var(--secondary-font-family);
+  color: var(--main-color);
+  font-weight: 600;
+  border-radius: 40px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 10px 35px;
+  align-items: center;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.enter-button:hover {
+  background: var(--main-color);
+  color: var(--main-red);
+  
+}
+
+/* ----------------- Movie descritption section --------------------------- */
+ 
+.movie-description p {
+   font-family: var(--secondary-font-family);
+   font-size: 17px;
+   font-weight: 300;
+   line-height: 30px;
+   background-color: rgba(255, 255, 255, 0.3);
+   margin-top: 25px;
+   padding: 20px 40px;
+ }
+
+
+ .movie-description h4 {
+   font-size: 24px;
+   letter-spacing: 4px;
+   font-weight: 700;
+font-family: var(--artsy-font-family); }
+
+
+
+ footer {
+  font-family: var(--secondary-font-family);
+  letter-spacing: 1px;
+  text-align: center;
+  color: rgba(105, 105, 105, 0.9);
+  margin: 20px auto;
+  padding: 20px;
+ }
+
+
+ /* ----------------- Characters section------------------------- */
+
+
+
+ .characters-group {
+  background: var(--main-color);
+   text-align: center;
+ }
+
+ .characters-group p {
+color: var(--main-blue);
+font-weight: 300;  
+font-family: var(--secondary-font-family);
+font-size: 18px;
+ }
+
+#characters-title{
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
+  color: var(--main-blue);
+  padding: 20px 0;
+  font-size: 60px;
+  font-family: var(--artsy-font-family);
+  letter-spacing: 2px;
+}
+
+
+#visuals-title {
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-family: var(--artsy-font-family);
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+#blue, #red, #yellow {
+  margin: 20px;
+  background: white;
+}
+
+
+
+ #img-title {
+   font-family: var(--main-font-family);
+   font-size: 22px;
+   text-align: center;
+   margin: 5px;
+   padding: 20px;
+    transition: all 200ms ease-in-out;
+ }
+
+ #img-title:hover {
+   transform: scale(1.2);
+   background: var(--main-red);
+   cursor: pointer;
+ }
+
+ .card-m {
+   margin-top: 20px;
+   background: var(--main-blue);
+   border: none;
+   color: rgba(250, 250, 250, 0.8);
+   margin-bottom: 2rem;
+ }
+
+    .card-p {
+      margin-top: 20px;
+      background: var(--main-red);
+      border: none;
+      color: rgba(250, 250, 250, 0.8);
+      margin-bottom: 2rem;
+    }
+
+ .btn {
+   font-family: var(--secondary-font-family);
+   border: 2px solid;
+   border-image-slice: 1;
+   background: var(--gradient) !important;
+   -webkit-background-clip: text !important;
+   -webkit-text-fill-color: transparent !important;
+   border-image-source: var(--gradient) !important;
+   text-decoration: none;
+   transition: all 200ms ease-in-out;
+ }
+
+ .btn:hover,
+ .btn:focus {
+   background: var(--main-color) !important;
+   -webkit-background-clip: none !important;
+   -webkit-text-fill-color: var(--main-blue) !important;
+   border: 2px solid var(--main-color) !important;
+   box-shadow: #222 1px 0 10px;
+   text-decoration: none;
+ }
+
+ .marianne-section {
+    background: var(--main-blue);
+ }
+
+ .pierrot-section {
+  background: var(--main-red);
+ }
+
+ /* ----------------- Marianne ------------------------- */
+ 
+ .the-card {
+  padding: 10px 60px;
+ }
+
+ .the-card h5 {
+  margin-top: 15px;
+  letter-spacing: 1px;
+  font-size: 22px;
+  font-weight: 300;
+  color: var(--main-color);
+  font-family: var(--secondary-font-family);
+ }
+ .the-card h6 {
+  font-family: var(--secondary-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+ }
+
+ .the-card a {
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+ }
+
+.card-img-top {
+  border: 10px solid var(--main-color);
+  border-radius: 10px;
+}
+
+
+ /* ----------------- Characters section------------------------- */
+
+
+
+ .grid-section {
+  background: var(--main-color);
+ }
+
+ 
+ /* ----------------- Art section------------------------- */
+
+ .art-group {
+   color:var(--main-blue);
+ }
+
+ #art-title {
+   font-size: 60px;
+   letter-spacing: 2px;
+   font-family: var(--artsy-font-family);
+   padding-top: 50px;
+
+ }
+
+
+ .art-painting {
+   color: var(--main-blue);
+   transition: all 200ms ease-in-out;
+   
+ }
+
+ .art-painting:hover {
+   transform: scale(1.1);
+   background: var(--main-blue) !important;
+   color: white;
+   cursor: pointer;
+   padding: 8px;
+ }
+
+.art-description {
+  font-family: var(--secondary-font-family);
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: var(--secondary-font-family);
+  line-height: 22px;
+}
+
+
+    /* ----------------- Visuals section------------------------- */
+  
+   
+    .visuals-group {
+      background: var(--main-color);
+      padding: 5px 30px;
+      margin: 0 auto;
+    }
+  
+    #visuals-title {
+      color: white;
+      margin-top: 20px;
+      font-size: 50px;
+      font-family: var(--artsy-font-family);    
+    }
+  
+    .visuals-group p {
+      color: white;
+      padding-left: 40px;
+      padding-right: 40px;
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: 300;
+      font-family: var(--secondary-font-family);
+      margin-bottom: 30px;
+    }
+  
+    .red-title {
+      font-family: var(--artsy-font-family);
+            margin-bottom: 20px;
+      font-size: 22px;
+      letter-spacing: 2px;
+      font-weight: bold;
+      color: var(--main-red);
+      text-align: center;
+    }
+  
+  
+    .blue-title {
+            margin-bottom: 20px;
+      font-family: var(--artsy-font-family);
+      letter-spacing: 2px;
+      font-size: 20px;
+      color: var(--main-blue);
+      text-align: center;
+    }
+  
+  
+    .yellow-title {
+      margin-bottom: 20px;
+      font-family: var(--artsy-font-family);
+      letter-spacing: 2px;
+      font-size: 20px;
+      font-weight: bold;
+      color: var(--main-color);
+      text-align: center;
+    }
+
+    .the-colors {
+      margin-bottom: 30px;
+    }
+  
+    
+    .img-color-1 {
+      background: var(--main-red);
+      padding: 20px;
+    }
+  
+    .img-color-2 {
+      background: var(--main-color);
+      padding: 20px;
+    }
+  
+    .img-color-3 {
+      background: var(--main-blue);
+      padding: 20px;
+    }
+
+/* ----------------- Dark theme --------------------------- */
+
+.dark {
+  background: black;
+  color: grey;
+}
+
+
+.dark .theme-button:hover {
+    cursor: pointer;
+    background: rgba(105, 105, 105, 0.9);
+    color: white;
+    }
+  
+.dark .theme-button {
+    background: #000000;
+    border: solid 1px #e5e3e0;
+    color: #e5e3e0;
+    }
+
+.dark .hero {
+      filter: grayscale(100%);
+    }
+  
+.dark footer {
+      color: gray;
+    }
+
+ /* ----------------- Trailer Section --------------------------- */
+
+ .trailer {
+   background: var(--main-color);
+   font-family: var(--main-font-family);
+   font-size: 32px;
+   letter-spacing: 2px;
+   color: var(--main-blue);
+ }
+
+ .scroll {
+   font-size: 12px;
+   font-family: var(--secondary-font-family);
+   color: var(--main-blue);
+   margin-bottom: 20px;
+  position:-webkit-sticky;
+  top: 0;
+ }
+
+ .scroll a {
+   text-decoration: none;
+ }
+
+ .scroll a:hover {
+  color: var(--main-blue) !important;
+ }
+
+ .scroll a:visited {
+   color: wheat;
+ }
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: var(--rgba-main);
+  color: var(--main-blue);
+}
+
+
+.imdb{
+  background: var(--main-color);
+  font-size: 30px !important;
+  padding: 1px  10px !important;
+  color: white;
+}
+
+.go-top {
+  background: var(--main-red);
+  font-size: 15px !important;
+  color: white;
+}
+
+.go-down {
+  background: var(--main-blue);
+  font-size: 15px !important;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+}
+
+.movie-images {
+  background: blue;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1000px) {
+
+body {
+    text-align: center;
+   }
+
+     .title {
+       margin-top: 10px;
+       margin-bottom: 100px;
+       padding: 20px 60px;
+       width: auto;
+     }
+
+ .hero h1 {
+   font-size: 35px;
+   margin-top: 10px;
+   padding: 10px;
+ }
+
+ .hero h4 {
+   font-size: 12px;
+  margin-top: 30px;
+ }
+
+ .enter-button {
+  font-size: 10px;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+ }
+
+ .movie-description p {
+   font-size: 18px;
+ }
+
+ .movie-description h4 {
+   font-size: 24px;
+ }
+
+ .movie-description h3 {
+   font-size: 22px;
+ }
+
+ .characters-group p {
+   margin-top: 30px;
+   font-size: 18px;
+ }
+
+ .characters-group h4 {
+   font-size: 42px;
+ }
+
+ iframe {
+   width: 380px;
+   height: 300px;
+ }
+
+ .scroll {
+   font-size: 15px;
+ }
+
+    
+}
